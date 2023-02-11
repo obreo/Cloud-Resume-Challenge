@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+
+		<title>Title </title>
+		<link rel="stylesheet" type="text/css"  href="resume.css">
+		<script>
+			fetch('')
+				.then(response => response.json())
+				.then((data) =>{
+					document.getElementById('visits').innerText =data
+				})
+		</script>
+		<body>
+			<p>This is a test HTML page</p>
+				<div id="ft">
+					<p>Visits <span id="visits"></span></p>
+					<p></p>
+				</div><!--// footer -->
+	</body>
+</html>
+

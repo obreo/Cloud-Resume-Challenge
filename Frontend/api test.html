@@ -1,0 +1,18 @@
+<html>
+<head>
+    <script>
+    fetch('https://pki4hk0zoc.execute-api.us-east-1.amazonaws.com/resume')
+        .then(response => response.json())
+        .then((data)=> {
+            document.getElementById('visits').innerText = data
+        })
+    </script>
+</head>
+<body>
+    <p>
+        visitors: <span id="visits" >
+    </p>
+</body>
+
+
+</html>
