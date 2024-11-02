@@ -102,12 +102,12 @@ The Gateway will be fetched in the HTML File by Javascript code whenver traffic 
 		</script> 
 ```
 
-## CodeCommit - CI CD
+## CodePipeline - CI CD
 
-I used code commit to automate deployment of the static pages:
+I used Code Pipeline to automate deployment of the static pages:
 
 1. Create a Github repository and set the ssh credintials of your local machien to the github account.
 
 2. upload your files using git, as instructed by the repository's page.
 
-3. Using codecommit, from code pipeline, add the respository and choose the source of S3 bucket and apply the pipeline. Now any change in the repository will change the s3 buvket files automatically.
+3. Using Code pipeline, add the respository and choose the source of S3 bucket and apply the pipeline. Now any change in the repository will change the s3 buvket files automatically.
